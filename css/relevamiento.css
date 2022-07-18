@@ -1,0 +1,707 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@1,300&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  width: 1200px;
+  height: 750px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/traje.jpg);
+  background-size: 100%;
+  background-position: 0% 10%;
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+article{
+  width: 1200px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:133px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 78px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 215px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+   color: white;
+  
+  
+  
+}
+
+.pdf{
+  margin-top: -454px;
+  margin-left: 612px;
+  height: 351px;
+  width: 488px;
+}
+
+.img{
+  margin-top: 16px;
+  width: 150px;
+  height: 35px;
+  float: left;
+  
+}
+
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 13px;
+  
+}
+
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+.video{
+
+  margin-top: 57px;
+  margin-left: 73px;
+  height: 351px;
+  width: 488px;
+
+}
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 200px) and (max-width: 767px) {
+ body{ background-color: #f2f2f2; } 
+ 
+  
+main{
+  width: 576px;
+  height: 1132px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/relevsmall.jpg);
+  background-size: 100%;
+  background-position: 0% 95%;
+}
+
+header{
+  width: 576px;
+  height: 60px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 576px;
+  height: 50px;
+  background-color:#161B21;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  margin-top: 543px;
+  
+}
+a{
+  text-decoration: none;
+}
+
+footer p{
+  padding-top: 18px;
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  margin-left: 130px;
+  font-family: 'Anek Latin', sans-serif;
+   color: white;
+
+  
+}
+article{
+  width: 576px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+header{
+  width: 576px;
+  height: 130px;
+  background-color:#161B21;
+  opacity: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:176px;
+    padding:7px 19px;
+    background-color:#eb2f06;
+    margin-top: 8px;
+    margin-bottom: 70px;
+    margin-left: 3px;
+    font-size: 24px;
+    margin-right: 0px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 25px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 125px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+.video{
+
+  margin-top: 49px;
+  margin-left: 39px;
+  height: 345px;
+  width: 500px;
+  margin-right: 100px;
+
+}
+
+.pdf{
+  margin-left: 39px;
+  height: 345px;
+  width: 500px;
+  margin-top: 55px;
+}
+
+.img{
+  margin-top: 15px;
+  width: 120px;
+  height: 25px;
+  float: left;
+  
+}
+
+.uces{
+  height: 40px;
+  width: 63px;
+  float: right;
+  margin-top: 6px;
+  
+}
+
+.logo{
+  text-align: center;
+  width: 165px;
+  height: 60px;
+  margin-top: -1px;
+  margin-left: 204px;
+  float: left;  
+}
+}
+
+
+/*Medium (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ body{ background-color: #f2f2f2; } 
+
+
+main{
+  width: 768px;
+  height: 1200px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/trajeoscuro.jpg);
+  background-size: 100%;
+  background-position: 0% 20%;
+}
+
+header{
+  width: 768px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 768px;
+  height: 60px;
+  margin-top: 618px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+}
+
+footer p{
+  padding-top: 20px;
+  font-family:'Anek Latin', sans-serif ;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+   color: white;
+  
+  
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+article{
+  width: 768px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:143px;
+    padding:4px 0px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 21px;
+    margin-right: 19px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 23px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 55px;
+  margin-top: 70px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+.pdf{
+  margin-top: 45px;
+  margin-left: 60px;
+  height: 400px;
+  width: 650px;
+}
+
+.img{
+  margin-top: 15px;
+  width: 120px;
+  height: 30px;
+  float: left;
+  
+}
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 8px;
+  
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+.video{
+
+  margin-top: 25px;
+  margin-left: 58px;
+  height: 391px;
+  width: 650px;
+
+}
+
+
+}
+
+
+/*Large (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+body{ background-color: #f2f2f2; } 
+
+main{
+  width: 992px;
+  height: 1350px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/relevlarge.jpg);
+  background-size: 99%;
+  background-position: 5% 13%;
+}
+
+header{
+  width: 992px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 992px;
+  height: 50px;
+  background-color:#161B21;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  margin-top: 820px;
+  
+  
+}
+footer p{
+  padding-top: 15px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+
+  
+}
+article{
+  width: 992px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+a{
+  text-decoration: none;
+}
+
+
+ li{
+    display: block;
+    width:118px;
+    padding:6px 2px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 19px;
+    margin-right: 37px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 110%;
+    font-size: 20px;
+
+ }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 65px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+.video{
+
+  margin-top: 25px;
+  margin-left: 70px;
+  height: 552px;
+  width: 850px;
+
+}
+
+.pdf{
+  margin-top: 60px;
+  margin-left: 70px;
+  height: 415px;
+  width: 850px;
+}
+
+
+.img{
+  margin-top: 12px;
+  width: 120px;
+  height: 25px;
+  float: left;
+  
+}
+
+.uces {
+  height: 35px;
+  width: 60px;
+  float: right;
+  margin-top: 5px;
+  
+}
+
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 3000px) and (max-width: 1399px) {
+body{ background-color: #f2f2f2; } 
+
+main{
+  width: 1200px;
+  height: 750px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/traje.jpg);
+  background-size: 100%;
+  background-position: 0% 10%;
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+article{
+  width: 1200px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:133px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+    a{
+  text-decoration: none;
+}
+
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 78px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 215px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+   color: white;
+  
+  
+  
+}
+
+.pdf{
+  margin-top: -454px;
+  margin-left: 631px;
+  height: 351px;
+  width: 490px;
+}
+
+.img{
+  margin-top: 16px;
+  width: 150px;
+  height: 35px;
+  float: left;
+  
+}
+
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 13px;
+  
+}
+
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+.video{
+
+  margin-top: 57px;
+  margin-left: 73px;
+  height: 351px;
+  width: 488px;
+
+}
+}

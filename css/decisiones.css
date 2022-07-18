@@ -1,0 +1,1079 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@1,300&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  width: 1200px;
+  height: 800px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/desicionesxlarge.jpg);
+  background-size: 105%;
+  background-position: 0% 40%;
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+article{
+  width: 1200px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:133px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 70px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+h2{
+  color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 70px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo2{
+
+   color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 642px;
+  margin-top: -499px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h6{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 723px;
+  margin-top: 27px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h3{
+   color: #eb2f06;
+  font-size: 23px;
+  margin-left: 74px;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 288px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+}
+a{
+  text-decoration: none;
+}
+
+footer p{
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+  
+}
+
+.colores{
+    width: 48px;
+    float: left;
+    margin-left: 645px;
+    margin-right: 25px;
+    margin-top: 32px;
+}
+
+.img{
+  margin-top: 16px;
+  width: 150px;
+  height: 35px;
+  float: left;
+  
+}
+
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 13px;
+  
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+.font1{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 22px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+.font2{
+
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Anek Latin', sans-serif;
+
+}
+
+.font3{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 21px;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.name2{
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.name3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Small (landscape phones, 576px and up) */
+@media (min-width: 200px) and (max-width: 767px) {
+ body{ background-color: #f2f2f2; } 
+ 
+  
+main{
+  width: 576px;
+  height: 1932px;
+  background-color: black;
+  background-image: url(../img/desicionesmovil.jpg);
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header{
+  width: 576px;
+  height: 60px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 576px;
+  height: 60px;
+  background-color:#161B21;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  margin-top: 1350px;
+  
+}
+
+section{
+
+  height: 710px;
+}
+
+footer p{
+  padding-top: 18px;
+  font-size: 18px;
+  width: 300px;
+  margin: auto;
+  margin-left: 130px;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+  
+
+  
+}
+article{
+  width: 576px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+a{
+  text-decoration: none;
+}
+
+
+header{
+  width: 576px;
+  height: 130px;
+  background-color:#161B21;
+  opacity: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:176px;
+    padding:7px 19px;
+    background-color:#eb2f06;
+    margin-top: 8px;
+    margin-bottom: 70px;
+    margin-left: 3px;
+    font-size: 24px;
+    margin-right: 0px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 25px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 60px;
+  margin-left: 160px;
+  margin-top: 46px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+}
+
+
+
+h2{
+  color: #F2F2F2;
+  font-size: 34px;
+  margin-left: 144px;
+  margin-top: 59px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo2{
+
+   color: #F2F2F2;
+  font-size: 34px;
+  margin-left: 155px;
+  margin-top: 85px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h6{
+  color: #F2F2F2;
+  font-size: 20px;
+  margin-left: 175px;
+  margin-top: 68px;
+  letter-spacing: 4px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h3{
+   color: #eb2f06;
+  font-size: 30px;
+  margin-left: 209px;
+  margin-top: 46px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.colores{
+    width: 100px;
+    float: left;
+    margin-left: 91px;
+    margin-right: 25px;
+    margin-top: 72px;
+}
+
+
+.img{
+  margin-top: 15px;
+  width: 120px;
+  height: 30px;
+  float: left;
+  
+}
+
+.uces{
+  height: 44px;
+  width: 64px;
+  float: right;
+  margin-top: 6px;
+  
+}
+
+.logo{
+  text-align: center;
+  width: 165px;
+  height: 60px;
+  margin-top: -1px;
+  margin-left: 204px;
+  float: left;  
+}
+
+
+.font1{
+  color: #F2F2F2;
+  font-size: 23px;
+  margin-left: -6px;
+  margin-top: 22px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+
+}
+.font2{
+
+  color: #F2F2F2;
+  font-size: 23px;
+  margin-left: 54px;
+  margin-right: 57px ;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Anek Latin', sans-serif;
+  text-align: center;
+
+}
+
+.font3{
+  color: #F2F2F2;
+  font-size: 23px;
+  margin-left: 54px;
+  margin-right: 57px ;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+
+}
+
+.num1{
+  margin-top: 67px;
+  font-size: 23px;
+}
+
+.num2{
+  margin-top: 115px;
+  font-size: 23px;
+}
+
+.num3{
+  margin-top: 135px;
+  font-size: 23px;
+}
+.name3{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 158px;
+}
+
+}
+
+
+/*Medium (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+ body{ background-color: #f2f2f2; } 
+
+
+main{
+  width: 768px;
+  height: 1605px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/desiciones.jpg);
+  background-size: 103%;
+  background-position: 100% 90%;
+}
+
+header{
+  width: 768px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 768px;
+  height: 60px;
+  margin-top: 1075px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+}
+
+footer p{
+  padding-top: 20px;
+  font-family:'Anek Latin', sans-serif ;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+  color: white;
+  
+}
+article{
+  width: 768px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+a{
+  text-decoration: none;
+}
+
+
+ li{
+    display: block;
+    width:143px;
+    padding:4px 0px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 21px;
+    margin-right: 19px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 23px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 68px;
+  margin-top: 78px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+
+
+
+h2{
+  color: #F2F2F2;
+  font-size: 35px;
+  margin-left: 74px;
+  margin-top: 66px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo2{
+
+   color: #F2F2F2;
+  font-size: 34px;
+  margin-left: 74px;
+  margin-top: 70px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h6{
+  color: #F2F2F2;
+  font-size: 22px;
+  margin-left: 194px;
+  margin-top: 71px;
+  letter-spacing: 2px;
+  font-family:'Anek Latin', sans-serif; 
+
+}
+
+h3{
+   color: #eb2f06;
+  font-size: 35px;
+  margin-left: 74px;
+  margin-top: 41px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.colores{
+    width: 73px;
+    float: left;
+    margin-left: 81px;
+    margin-right: 25px;
+    margin-top: 66px;
+}
+
+.font1{
+  color: #F2F2F2;
+  font-size: 20px;
+  margin-left: 74px;
+  margin-top: 22px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+.font2{
+
+  color: #F2F2F2;
+  font-size: 20px;
+  margin-left: 74px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Anek Latin', sans-serif;
+
+}
+
+.font3{
+  color: #F2F2F2;
+  font-size: 20px;
+  margin-left: 74px;
+  margin-top: 21px;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.name2{
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.name3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img{
+  margin-top: 15px;
+  width: 120px;
+  height: 30px;
+  float: left;
+  
+}
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 8px;
+  
+}
+
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+}
+
+
+/*Large (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+body{ background-color: #f2f2f2; } 
+
+main{
+  width: 992px;
+  height: 860px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: none;
+  background-size: 100%;
+  background-position: 90% 5%;
+}
+
+header{
+  width: 992px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+footer{
+  width: 992px;
+  height: 50px;
+  background-color:#161B21;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  margin-top: 339px;
+  
+  
+}
+footer p{
+  padding-top: 15px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+
+  
+}
+article{
+  width: 992px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:118px;
+    padding:6px 2px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 19px;
+    margin-right: 37px;
+    }
+
+a{
+  text-decoration: none;
+}
+
+
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 110%;
+    font-size: 20px;
+
+ }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 55px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+
+
+h2{
+  color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 51px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo2{
+
+   color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 602px;
+  margin-top: -549px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h6{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 664px;
+  margin-top: 69px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h3{
+   color: #eb2f06;
+  font-size: 23px;
+  margin-left: 55px;
+  margin-top: 41px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.colores{
+    width: 61px;
+    float: left;
+    margin-left: 602px;
+    margin-right: 25px;
+    margin-top: 79px;
+}
+
+.font1{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 55px;
+  margin-top: 22px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+.font2{
+
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 55px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Anek Latin', sans-serif;
+
+}
+
+.font3{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 55px;
+  margin-top: 21px;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.img{
+  margin-top: 12px;
+  width: 120px;
+  height: 25px;
+  float: left;
+  
+}
+
+.uces {
+  height: 35px;
+  width: 60px;
+  float: right;
+  margin-top: 5px;
+  
+}
+
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+.name2{
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.name3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 3000px) and (max-width: 1399px) {
+body{ background-color: #f2f2f2; } 
+
+main{
+  width: 1200px;
+  height: 800px;
+  background-color: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/desicionesxlarge.jpg);
+  background-size: 105%;
+  background-position: 0% 40%;
+}
+
+header{
+  width: 1200px;
+  height: 70px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+article{
+  width: 1200px;
+  height: 380px;
+  flex-direction: row-reverse;
+  }
+
+ li{
+    display: block;
+    width:133px;
+    padding:5px 10px;
+    background-color:#eb2f06;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: 'Anek Latin', sans-serif; 
+    opacity: 100%;
+    font-size: 20px;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+
+h1{
+  color: #F2F2F2;
+  font-size: 65px;
+  margin-left: 70px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 3px 0px 0px rgba(255,0,0,0.86);
+  
+}
+
+h2{
+  color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 70px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.titulo2{
+
+   color: #F2F2F2;
+  font-size: 28px;
+  margin-left: 642px;
+  margin-top: -499px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h6{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 723px;
+  margin-top: 27px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+
+h3{
+   color: #eb2f06;
+  font-size: 23px;
+  margin-left: 74px;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 288px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+
+footer p{
+  padding-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  margin: auto;
+  font-family: 'Anek Latin', sans-serif;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.colores{
+    width: 48px;
+    float: left;
+    margin-left: 645px;
+    margin-right: 25px;
+    margin-top: 32px;
+}
+
+.img{
+  margin-top: 16px;
+  width: 150px;
+  height: 35px;
+  float: left;
+  
+}
+
+.uces {
+  height: 45px;
+  width: 75px;
+  float: right;
+  margin-top: 13px;
+  
+}
+
+.logo{
+  margin-left: 30px;
+  width: 130px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
+.font1{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 22px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+
+}
+.font2{
+
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-family: 'Anek Latin', sans-serif;
+
+}
+
+.font3{
+  color: #F2F2F2;
+  font-size: 18px;
+  margin-left: 74px;
+  margin-top: 21px;
+  letter-spacing: 2px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.name2{
+  font-family: 'Anek Latin', sans-serif;
+}
+
+.name3{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+}
